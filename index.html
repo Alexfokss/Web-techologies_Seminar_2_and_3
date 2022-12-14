@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="HHH.css">
+        <script src="https://kit.fontawesome.com/3570705ef4.js" crossorigin="anonymous"></script>
+        <link href="HHH.css" rel="stylesheet" type="text/css">
+        <title>Document</title>
+    </head>
+<body>
+    <main>
+        <section class="about"> 
+            <!-- <h1>Обо мне</h1> -->
+            <div class="about">   
+                <div class="photo"> 
+                    <img class="icon" width="500" height="500" src="C:\Users\pudin\Downloads\photo.jpg">
+                </div>
+                <div class="info">
+                    <div>
+                        <h4>Основная информация</h4>
+                        <div class="info__flex">
+                            <div class="info_row">
+                                <ul class="title">
+                                    <li>Имя: Пудин Михаил</li>
+                                    <li>Местонахождение: город Дубна</li>
+                                    <li>Электронная почта: pms.21@uni-dubna.ru</li>
+                                    <li>Телефон: 8-800-555-35-55</li>
+                                    <li>Мой Вк: https://vk.com</li>
+                                </ul>
+                            </div>
+                            <div class="info_col"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Привет</h4>
+                        <p class="about_me">Меня зовут Пудин Михаил Сергеевич, мне 19, я студент 2 курса прикладной информатики в Университете "Дубна".
+                        Я люблю слушать музыку, можно сказать я меломан, то есть без ума от неё и могу слушать часами каждый день.
+                        Также мне нравится читать современную фантастику, особенно новый жанр "Пападанец".
+                        Я не определился со своей будущей профессией.
+                        Я выбрал сферу IT в образовании, так как думаю что, будущее именно за этим направлением, а следовательно будут нужны специалисты.
+                        К сожалению или к счастью, я не фанатею от компьютерных игр. Но иногда люблю поиграть в Terraria, GS:GO, S.T.A.L.K.E.R и Mincraft.
+                        К програмированию отношусь, как любитель и исследователь, это интересное занятие, но трудное. Мне оно даётся тяжело...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Изученные языки програмирования</h2>
+            <ul class="skills-list">
+                <li>C#</li>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Контакты</h2>
+            <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="label" for="name">Полное имя</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="label" for="email">Электронная почта</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="label" for="#">Сообщение</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Написать сообщение"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="margin-top: 10px">
+                        <div class="form-group">
+                            <input type="submit" value="Отправить" class="btn btn-primary">
+                            <div class="submitting"></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    </body>
+    <script src="app.js"></script> 
+</html>
